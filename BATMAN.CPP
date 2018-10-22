@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+    int c,m,i,j;
+	
+    for(i=0,m=1<<5|1;c="XLX9SVS9OGPGO9MEXEM9KDeDK9ICEBHADAHBECI9GCD\
+			EHFHEDCG9FCCFIFIFCCF9EBCHIFIHCBE9DBCIIFIICB\
+			D9CBCJHGIJCBC9CBBLGHGLBBC9BBBNEJENBBB9BAByB\
+			AB9ABByBBA9ABByBBA9ABByBBA9ABByBBA9ABByBBA9\
+			ABByBBA9BAByBAB9BBBHCFBJBFCHBBB9CBBFFCDGECF\
+			FBBC9CBCEGAFFFAGECBC9DBCDODODCBD9EBCCPBPCCB\
+			E9FCCAPBOBCCF9GCSBSCG9ICkCI9JEeDK9MEXEM9OGP\
+			GO9SVS9XLX9null99"
+			[(!(c-57)?(m=1<<5,
+	     printf("\n")):(m^=1)),
+	     i++];){for(j=0;(c-57) &&
+	     (j++-c-(c<64?5:(c>90?-70:-64)));
+	     printf("%c",m));
+    }
+getch();
+}
